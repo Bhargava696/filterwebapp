@@ -1,0 +1,20 @@
+.bg{
+    background-image:url(istockphoto-887755698-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+canvas{
+    animation-name:kfia;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes kfia {
+    from{
+        box-shadow: 5px 15px 20px rgb(255, 8, 0);
+    }
+    to{
+        box-shadow: 5px 10px 15px rgb(255, 2, 221);
+    }
+}
