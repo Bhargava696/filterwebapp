@@ -32,7 +32,7 @@ function gotPoses(results) {
     if (results.length > 0) {
         console.log(results);
         pos_x = results[0].pose.nose.x - 50;
-        pos_y = results[0].pose.nose.y - 2;
+        pos_y = results[0].pose.nose.y - 5;
         console.log("x = " + pos_x);
         console.log("y = " + pos_y);
     }
